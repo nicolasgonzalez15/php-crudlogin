@@ -6,3 +6,6 @@ Repositorio con proyecto de CRUD LOGIN hecho con PHP, MySQL y CSS
 
 ## Usuario de prueba:
 user: fclastra@gmail.com - pass: pepito
+
+## Datos del creador:
+Nombre: Nicolás González / Grupo 4 / mail: nicolas.gonzalez15@gmail.com

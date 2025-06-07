@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+
+}
+
+.box-sticky{
+    position: sticky;
+    top:0;
+    background-color:#666;
+    color: aliceblue;
+    font-weight: 300;
+}
+
+.error-msg{
+    display: inline;
+    color: #fff;
+    margin:0.5rem;
+    padding:0.8rem;
+    border-radius: 10px;
+    background-color:#FF6B6B;
+}
+
+.contenido{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenido a{
+    text-decoration: none;
+}
+
+.contenido h1{
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+.contacto{
+    display: flex;
+    flex-direction: column;
+    background-color:#D9D7D7;
+    align-items: center;
+    padding: 1rem;
+    width: 50%;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
+}
+
+.contacto form{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+}
+
+.contacto label{
+    padding-top:15px;
+}
+
+.contacto input{
+    margin-bottom: 15px;
+    padding:10px;
+    border:1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contacto button{
+    align-self:center;
+    padding:10px;
+}
+
+.btn{
+    background-color: dodgerblue;
+    width:30%;
+    color: white;
+    padding: 10px 20px;
+    margin:10px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.btn:hover{
+    transform: scale(1.05);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    
+}
+
+.link-index{
+    padding-top: 20px;
+    color: brown;
+    
+}
+
+.link-index:hover{
+    color: cornflowerblue;
+    font-weight: bold;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #666;
+    color:white;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+@media screen and (max-width:768px){
+    .contacto{
+        width: 95%;
+    }
+}
